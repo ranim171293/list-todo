@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const RenderFormField = ({
+const InputFormField = ({
   input,
   label,
   type,
@@ -27,7 +27,7 @@ const RenderFormField = ({
   </div>
 );
 
-RenderFormField.propTypes = {
+InputFormField.propTypes = {
   input: PropTypes.any,
   label: PropTypes.any,
   type: PropTypes.string,
@@ -38,4 +38,4 @@ RenderFormField.propTypes = {
   meta: PropTypes.object,
 };
 
-export default RenderFormField;
+export default InputFormField;

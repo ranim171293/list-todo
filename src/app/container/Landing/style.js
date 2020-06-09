@@ -23,12 +23,15 @@ const LandingCss = styled.div`
     width: 100%;
     display: flex;
     padding-bottom: 20px;
-    border-bottom: 1px solid; 
+    border-bottom: 1px solid #cfcfcf; 
   }
   .addedTaskWrapper{
     display: flex;
     padding: 15px 30px;
     font-size: 14px;
+  }
+  .noTask{
+    color: #716e6e;
   }
 `;
 
